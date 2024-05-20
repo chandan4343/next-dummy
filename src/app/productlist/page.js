@@ -37,7 +37,7 @@ export default async function Page() {
                     {
                         productlist.map((item) => (
                             <tbody>
-                                <tr>
+                                <tr key={item._id}>
                                     <td>{item.name}</td>
                                     <td>{item.price}</td>
                                     <td>{item.type}</td>
