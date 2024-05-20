@@ -1,0 +1,20 @@
+.pro_i_container {
+    margin: 50px;
+}
+.input {
+    padding: 10px 10px;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 20px 45px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.table{
+    border: 1px solid black;
+}
